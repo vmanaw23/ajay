@@ -1,16 +1,16 @@
 @font-face {
     font-family: Gothic;
-    src: url(/Fonts/NanumGothic-Bold.ttf);
+    src: url(/ajay/Fonts/NanumGothic-Bold.ttf);
 }
 
 @font-face {
     font-family: Oxygen;
-    src: url(/Fonts/Oxygen-Light.ttf);
+    src: url(/ajay/Fonts/Oxygen-Light.ttf);
 }
 
 @font-face {
     font-family: "Ubuntu Bold";
-    src: url(/Fonts/Ubuntu-Bold.ttf);
+    src: url(/ajay/Fonts/Ubuntu-Bold.ttf);
 }
 
 #ajay {
