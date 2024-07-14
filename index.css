@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Gothic;
+    src: url(/Fonts/NanumGothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url(/Fonts/Oxygen-Light.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu Bold";
+    src: url(/Fonts/Ubuntu-Bold.ttf);
+}
+
+#ajay {
+    text-align: center;
+    font-family: Gothic;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+    opacity: 50%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    opacity: 100%;
+    color: blue;
+}
+
+ul>li {
+    width: 25%;
+}
+
+li[id^="li"] {
+    font-family: "Ubuntu Bold";
+}
+
+.para {
+    padding: 0.5% 0.1% 1.5% 1%;
+    font-family: Oxygen;
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    font-stretch: extra-expanded;
+    margin: 2% 1.5% 2% 2%;
+}
+
+@media (hover: hover) {
+    #inside:hover {
+        opacity: 100%;
+        transition-duration: 0.1s;
+        background-color: none;
+        font-weight: 700;
+    }
+    #ajp:hover {
+        width: 20.1%;
+        height: 22.1%;
+        transition-duration: 0.1s;
+    }
+}
+
+#ajp {
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
+
+body {
+    background-image: url("/Images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
